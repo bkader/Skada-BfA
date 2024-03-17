@@ -1765,7 +1765,7 @@ do
 
 	function Private.StartWatching(obj)
 		if not IsWatching then
-			obj:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED", "ParseCombatLog")
+			obj:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
 			obj:RegisterEvent("ENCOUNTER_START")
 			obj:RegisterEvent("ENCOUNTER_END")
 			IsWatching = true

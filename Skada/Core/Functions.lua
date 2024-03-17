@@ -2002,6 +2002,13 @@ do
 		ARGS_MT.__index = ARGS_MT
 	end
 
+	local CombatLogGetCurrentEventInfo = CombatLogGetCurrentEventInfo
+	function Skada:COMBAT_LOG_EVENT_UNFILTERED()
+		-- disabled or test mode?
+		if self.disabled or self.testMode then return end
+		return self:ParseCombatLog(CombatLogGetCurrentEventInfo())
+	end
+
 	-- trigger events used for first hit check
 	-- Edit Skada\Core\Tables.lua <trigger_events>
 	local TRIGGER_EVENTS = Skada.trigger_events
@@ -2013,10 +2020,7 @@ do
 	local HOT_EVENTS = {SPELL_PERIODIC_HEAL = true--[[, SPELL_PERIODIC_ENERGIZE = true--]]}
 
 	-- combat log handler
-	function Skada:ParseCombatLog(_, timestamp, event, ...)
-		-- disabled or test mode?
-		if self.disabled or self.testMode then return end
-
+	function Skada:ParseCombatLog(timestamp, event, ...)
 		local args = Handlers[event](ARGS, timestamp, event, ...)
 
 		if event == "SPELL_EXTRA_ATTACKS" then
@@ -2116,7 +2120,7 @@ do
 		t.auras = clear(t.auras) or new()
 
 		for i = 1, 41 do
-			local name, _, icon, _, _, duration, expires, source, _, _, id = UnitBuff(unit, i)
+			local name, icon, _, _, duration, expires, source, _, _, id, _, _, _, _, _, amount = UnitBuff(unit, i)
 			if not id then
 				break -- nothing found
 			elseif source then
