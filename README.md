@@ -1,18 +1,19 @@
-# Skada for Legion `7.3.5` (_Revisited - v1.8.86_)
+# Skada for Battle for Azeroth `8.3.7` (_Revisited - v1.8.86_)
 
 ![Discord](https://img.shields.io/discord/795698054371868743?label=discord)
-![GitHub last commit](https://img.shields.io/github/last-commit/bkader/Skada-Legion)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/bkader/Skada-Legion?label=version)
+![GitHub last commit](https://img.shields.io/github/last-commit/bkader/Skada-BfA)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/bkader/Skada-BfA?label=version)
 
 Skada is a modular damage meter with various viewing modes, segmented fights and customizable windows. It aims to be highly efficient with memory and CPU.
 
-<p align="center"><img src="https://github.com/bkader/Skada-Legion/assets/4732702/cc1e3f3c-a4f1-4604-a297-0fbdb83ba631" alt="Skada Damage Meter"></p>
+<p align="center"><img src="https://github.com/bkader/Skada-BfA/assets/4732702/cc1e3f3c-a4f1-4604-a297-0fbdb83ba631" alt="Skada Damage Meter"></p>
 
 _**FOR PRIVATE SERVERS**_:
 * _[Wrath of the Lich King](https://github.com/bkader/Skada-WoTLK)_
 * _[Cataclysm](https://github.com/bkader/Skada-Cata)_
 * _[Mists of Pandaria](https://github.com/bkader/Skada-MoP)_
 * _[Warlords of Draenor](https://github.com/bkader/Skada-WoD)_
+* _[Legion](https://github.com/bkader/Skada-Legion)_
 
 _**FOR OFFICIAL SERVERS**_:
 * _[Retail/Classic Wrath](https://github.com/bkader/Skada-Damage-Meter)_
@@ -23,8 +24,8 @@ _**FOR OFFICIAL SERVERS**_:
 ## IMPORTANT: How to install
 
 1. If you used the default on **Skada** before, please make sure to delete all its files from `Interface\AddOns` folder as well as all its _SavedVariables_ from `WTF` folder (_just delete all `Skada.lua` and `Skada.lua.bak` for this folder. Use the search box for quick delete_). If you are new, skip this step.
-2. [Download the package](https://github.com/bkader/Skada-Legion/archive/refs/heads/main.zip).
-3. Open the Zip package inside which you will find a single folder named `Skada-Legion-main`.
+2. [Download the package](https://github.com/bkader/Skada-BfA/archive/refs/heads/main.zip).
+3. Open the Zip package inside which you will find a single folder named `Skada-BfA-main`.
 4. Extract or drag and drop the unique folder `Skada` into your `Interface\AddOns` folder.
 5. If you want to use `SkadaImprovement` and/or `SkadaStorage` modules, drop them there as well.
 
