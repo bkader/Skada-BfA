@@ -418,6 +418,31 @@ Skada:RegisterModule("Potions", function(L, P, G, C, _, O)
 		potion_ids[242551] = "147707" -- Repurposed Fel Focuser
 		potion_ids[251645] = "152615" -- Astral Healing Potion
 
+		--[[ Battle for Azeroth ]]--
+		potion_ids[250878] = "152497" -- Lightfoot Potion
+		potion_ids[250956] = "152503" -- Potion of Concealment
+		potion_ids[251143] = "152550" -- Sea Mist Potion
+		potion_ids[251231] = "152557" -- Steelskin Potion
+		potion_ids[251316] = "152560" -- Potion of Bursting Blood
+		potion_ids[252753] = "152561" -- Potion of Replenishment
+		potion_ids[269853] = "152559" -- Potion of Rising Death
+		potion_ids[279151] = "163222" -- Battle Potion of Intellect
+		potion_ids[279152] = "163223" -- Battle Potion of Agility
+		potion_ids[279153] = "163224" -- Battle Potion of Strength
+		potion_ids[279154] = "163225" -- Battle Potion of Stamina
+		potion_ids[289982] = "166751" -- Draught of Ten Lands
+		potion_ids[293795] = "156634" -- Silas' Vial of Continuous Curing
+		potion_ids[298152] = "168498" -- Superior Battle Potion of Intellect
+		potion_ids[298153] = "168499" -- Superior Battle Potion of Stamina
+		potion_ids[298154] = "168500" -- Superior Battle Potion of Strength
+		potion_ids[298155] = "168501" -- Superior Steelskin Potion
+		potion_ids[298157] = "168502" -- Potion of Reconstitution
+		potion_ids[298225] = "168529" -- Potion of Empowered Proximity
+		potion_ids[298317] = "168506" -- Potion of Focused Resolve
+		potion_ids[300714] = "169299" -- Potion of Unbridled Fury
+		potion_ids[300741] = "169300" -- Potion of Wild Mending
+		potion_ids[301308] = "169451" -- Abyssal Healing Potion
+
 		-- don't edit below unless you know what you're doing.
 		if P.prepotion == nil then
 			P.prepotion = true
