@@ -6,7 +6,7 @@
 
 Skada is a modular damage meter with various viewing modes, segmented fights and customizable windows. It aims to be highly efficient with memory and CPU.
 
-<p align="center"><img src="https://github.com/bkader/Skada-BfA/assets/4732702/cc1e3f3c-a4f1-4604-a297-0fbdb83ba631" alt="Skada Damage Meter"></p>
+<p align="center"><img src="https://github.com/bkader/Skada-BfA/assets/4732702/3865b6fa-0159-489a-8d0a-e383d25b1b43" alt="Skada Damage Meter"></p>
 
 _**FOR PRIVATE SERVERS**_:
 * _[Wrath of the Lich King](https://github.com/bkader/Skada-WoTLK)_
